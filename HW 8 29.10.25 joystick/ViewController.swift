@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func createCycle() {
-        cycleButton.frame = CGRect(x: 100, y: 150, width: 80, height: 80)
+        cycleButton.frame = CGRect(x: 100, y: 150, width: 70, height: 70)
         cycleButton.backgroundColor = .orange
         cycleButton.layer.cornerRadius = cycleButton.frame.height / 2
         view.addSubview(cycleButton)
